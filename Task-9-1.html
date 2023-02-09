@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Task-9-1</title>
+	</head>
+	<body>
+	<h1>MAP METHOD</h1>
+	<Script>
+	 //Task-1
+            const users = [
+					  {
+						first_name: 'Mike',
+						last_name: 'Sheridan'
+					  },
+					  {
+						first_name: 'Tim',
+						last_name: 'Lee'
+					  },
+					  {
+						first_name: 'John',
+						last_name: 'Carte'
+					  }
+					];
+					let name=users.map (function (user){
+					 return user.first_name+user.last_name;
+					}
+					)
+					console.log(name);
+					document.write(name);
+	</script>
+
+	</body>
+	</html>
